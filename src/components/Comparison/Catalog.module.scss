@@ -1,0 +1,56 @@
+.comparison {
+    display: flex;
+    flex-direction: column;
+
+    &__head{
+        display: flex;
+        justify-content: space-between;
+        margin: 58px 0 20px;
+        align-items: center;
+    }
+
+    &__headTitle{
+        margin: 0;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 60px;
+        letter-spacing: 0.02em;
+        color: #828286;
+    }
+
+    &__phones{
+        display: flex;
+        max-width: calc(100vw - 330px);
+        width: 100%;
+    }
+
+    &__input{
+        display: flex;
+        align-items: center;
+        gap: 13px;
+        margin-top: 124px;
+    }
+
+    &__inputCheckbox{
+        width: 24px;
+        height: 24px;
+        margin: 0;
+
+        &:hover{
+            cursor: pointer;
+        }
+    }
+
+    &__inputLabel{
+        font-size: 18px;
+        font-weight: 400;
+        color: #0D5ADC;
+        letter-spacing: 0.02em;
+        margin: 0;
+    }
+
+    &__background{
+        padding-bottom: 91px;
+        background: #f4f9fc;
+    }
+}

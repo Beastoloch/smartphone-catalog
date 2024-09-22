@@ -1,0 +1,66 @@
+.header {
+    border-bottom: #a6a5a9 solid 1px;
+
+    &__content{
+        display: flex;
+        justify-content: space-between;
+        min-height: 100px;
+        align-items: center;
+    }
+
+	&__logo {
+		max-width: 241px;
+		font-weight: 900;
+        line-height: 21px;
+        height: 18px;
+        letter-spacing: 0.05em;
+		font-size: 18px;
+		color: #0d5adc;
+
+		&:hover {
+			cursor: pointer;
+		}
+	}
+
+	&__nav {
+		display: flex;
+		max-width: 255px;
+		width: 100%;
+		justify-content: space-between;
+		align-items: center;
+		transition: opacity 0.2s linear;
+	}
+
+	&__navText {
+		font-size: 12px;
+		font-weight: 900;
+		line-height: 14.06px;
+		color: #3b4157;
+	}
+
+	&__navHover {
+		transition: opacity 0.2s linear;
+
+		&:hover {
+			cursor: pointer;
+			opacity: 0.7;
+		}
+	}
+
+	&__navProfile {
+		display: flex;
+		align-items: center;
+		max-width: 137px;
+		width: 100%;
+		justify-content: space-between;
+	}
+
+	&__navImg {
+		width: 21px;
+		height: 21px;
+	}
+
+    &__navTextSpacing{
+        letter-spacing: 0.02em;
+    }
+}

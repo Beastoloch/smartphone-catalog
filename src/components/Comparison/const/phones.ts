@@ -1,0 +1,3 @@
+export const DEFAULT_SMARTPHONES_COUNT = 3;
+export const MIN_SHOW_SMARTPHONES_COUNT = 2;
+export const MAX_SHOW_SMARTPHONES_COUNT = 6;

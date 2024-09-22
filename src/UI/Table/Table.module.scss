@@ -1,0 +1,33 @@
+.table{
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+
+    &__head{
+        display: flex;
+        border-bottom: #CDCFD2 1px solid;
+    }
+
+    &__row{
+        display: flex;
+        border-bottom: #CDCFD2 1px solid;
+        min-height: 114px;
+        align-items: center;
+    }
+
+    &__column{
+        flex: 1;
+        flex-shrink: 0;
+    }
+
+    &__text{
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21.09px;
+        text-wrap: wrap;
+        text-align: left;
+        max-width: 250px;
+        text-overflow: ellipsis;
+        margin: 0
+    }
+}

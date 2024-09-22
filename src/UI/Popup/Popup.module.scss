@@ -1,0 +1,21 @@
+.popup{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 421px;
+    height: 336px;
+    background: #fff;
+    border: 1px solid #E3E3E3;
+    border-radius: 4px;
+    box-shadow: 0 16px 32px 0 #2327331A;
+    z-index: 2;
+
+    &-position-top-left{
+        top: 70px;
+        left: 182px;
+    }
+
+    &-position-top{
+        top: 70px;
+    }
+}

@@ -1,0 +1,33 @@
+.productNumber {
+    display: flex;
+    flex-direction: row;
+    user-select: none;
+    letter-spacing: 0.02em;
+
+    &__numbers {
+        display: flex;
+        margin-left: 10px;
+        gap: 5px;
+    }
+
+    &__text {
+        margin: 0;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 60px;
+        color: #0D5ADC;
+    }
+
+    &__num{
+        transition: opacity 0.2s linear;
+
+        &_active {
+            text-decoration: underline;
+        }
+
+        &:hover{
+            cursor: pointer;
+            opacity: 0.7;
+        }
+    }
+}
